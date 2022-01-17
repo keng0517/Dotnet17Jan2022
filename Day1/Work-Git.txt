@@ -1,0 +1,8 @@
+To create a local repo
+
+git init
+---------------------------------------------
+To check the status of the loca repo
+
+git status
+---------------------------------------------
