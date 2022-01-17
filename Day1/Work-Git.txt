@@ -29,3 +29,9 @@ git remote add origin https://github.com/keng0517/Dotnet17Jan2022.git
 to check the remote repo connection
 
 git remote --v
+----------------------------------------------------
+to pull work from a remote repo all new 
+Create a local folder and in the cmd prompt
+git clone <remote repo>
+
+------------------------------------------------------
