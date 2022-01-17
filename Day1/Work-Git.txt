@@ -18,6 +18,10 @@ to commit the file
 
 git commit -m "your message"
 -----------------------------------------
+to push code to remote repo
+
+git push <branch_name> / origin master
+------------------------------------------
 to set the identity for local repo
 
 git config --global user.email "keng051700@gmail.com"
@@ -32,6 +36,23 @@ git remote --v
 ----------------------------------------------------
 to pull work from a remote repo all new 
 Create a local folder and in the cmd prompt
-git clone <remote repo>
 
+git clone <remote repo>
 ------------------------------------------------------
+to view the branches
+
+git branch
+-----------------------------------
+to create branch
+
+git branch <branch_name>
+-----------------------------
+to merge branch to master
+switch to master
+
+git merge <branch_name>
+------------------------------
+To change teh working branch
+
+git checkout <branch name>
+-----------------------------------------------
