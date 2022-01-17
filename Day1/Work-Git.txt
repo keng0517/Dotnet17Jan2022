@@ -6,3 +6,26 @@ To check the status of the loca repo
 
 git status
 ---------------------------------------------
+To add a file to the local repo for tracking
+
+git add <filename>
+---------------------------------------------
+to add all the files in the current folder for tracking
+
+git add -A
+-----------------------------------------------
+to commit the file
+
+git commit -m "your message"
+-----------------------------------------
+to set the identity for local repo
+
+git config --global user.email "keng051700@gmail.com"
+----------------------------------------------------
+link local repo with the remote repo
+
+git remote add origin https://github.com/keng0517/Dotnet17Jan2022.git
+--------------------------------------------------------
+to check the remote repo connection
+
+git remote --v
