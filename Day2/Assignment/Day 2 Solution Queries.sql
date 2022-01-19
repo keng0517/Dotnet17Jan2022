@@ -40,6 +40,7 @@ select type, min(pubdate) 'Published Date' from titles
 group by type
 
 
+
 --12) calculate the total royalty for every publisher
 select pub_id, sum(royalty) 'Total Royalty' from titles
 group by pub_id
@@ -61,9 +62,6 @@ where title_id in (
 	)
 
 --16) Print the author name of books whcih have royalty more than the average royalty of all the titletes
-select * from titles
-having avg(royalty) < royalty
-
 select concat(au.au_lname,' ',au.au_fname) 'Author name', sum(t.royalty) 'Total Royalty'
 from titles t join titleauthor ta
 on t.title_id = ta.title_id join authors au
@@ -73,10 +71,17 @@ group by concat(au.au_lname,' ',au.au_fname)
 having sum(t.royalty) > avg(t.royalty)
 order by concat(au.au_lname,' ',au.au_fname)
 
+--correct answer
+select concat(au_fname,' ',au_lname) from authors where au_id in
+(select au_id from titleauthor where title_id in
+(select title_id from titles where royalty >
+(select avg(royalty) from titles)))
 
---17) Print all the city and the number of pulishers in it, only if the city has more than one publisher (just title table)
 
-
+--17) Print all the city and the number of pulishers in it, only if the city has more than one publisher
+select city, count(pub_id) 'Number of Publishers' from publishers
+group by city
+having count(pub_id) > 1
 
 
 
@@ -152,14 +157,23 @@ select st.stor_id, st.stor_name, count(s.ord_num) 'Number of orders'
 from sales s join stores st
 on s.stor_id = st.stor_id 
 group by st.stor_id, st.stor_name
+having count(ord_num) > 2
 order by st.stor_id
+
+--answer from miss
+select stor_id, count(ord_num) 'Number of orders' 
+from sales
+group by stor_id
+having count(ord_num) > 2
+
 
 
 --29) Select all the titles and print the first order date (titles that have not be ordered should also be present)
 select t.title, min(s.ord_date) 'First Order Date'
-from titles t full outer join sales s
+from titles t left outer join sales s
 on t.title_id = s.title_id
 group by t.title
+
 
 
 --30) select all the data from the orderes and the authors table (cross join)
