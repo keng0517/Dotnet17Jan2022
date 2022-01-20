@@ -126,11 +126,13 @@ insert into employee (emp_name, emp_age, phone, gender, email) values ('Michael 
 insert into salary (sal_basic, hra, da, deductions) values (2000, 200, 200, 100)
 insert into salary (sal_basic, hra, da, deductions) values (3500, 300, 200, 250)
 insert into salary (sal_basic, hra, da, deductions) values (4500, 300, 200, 300)
+insert into salary (sal_basic, hra, da, deductions) values (224500, 300, 200, 300)
 
 insert into EmployeeSalary (trans_no, emp_id, sal_id, date) values (1, 100, 1, '2021-09-14 00:00:00.000')
 insert into EmployeeSalary (trans_no, emp_id, sal_id, date) values (2, 101, 101, '2021-03-12 00:00:00.000')
 insert into EmployeeSalary (trans_no, emp_id, sal_id, date) values (3, 102, 201, '2021-11-29 00:00:00.000')
 insert into EmployeeSalary (trans_no, emp_id, sal_id, date) values (4, 101, 201, '2021-04-29 00:00:00.000')
+insert into EmployeeSalary (trans_no, emp_id, sal_id, date) values (5, 101, 301, '2021-04-27 00:00:00.000')
 
 
 --Create a procedure which will print the total salary of employee by taking the employee id and the date
@@ -144,7 +146,7 @@ begin
 	set @total = (select sum(s.sal_basic + s.hra + s.da - s.deductions) total_salary from employee e join employeesalary es
 						on e.emp_id = es.emp_id join salary s
 						on s.sal_id = es.sal_id
-						where e.emp_id = @emp_id)
+						where e.emp_id = @emp_id and es.date = @date)
 
 	print 'Total Salary: ' + cast(@total as varchar(20))
 	
@@ -196,17 +198,135 @@ exec procAverageSalaryCalculator 101
 --total > 350000 - 7.5%
 
 
+create proc taxCalculator(@emp_id int, @date datetime)
+as
+begin
+	declare
+	@total float,
+	@taxRate float,
+	@tax float
 
 
+	set @total = (select s.sal_basic + s.hra + s.da - s.deductions from employee e join employeesalary es
+						on e.emp_id = es.emp_id join salary s
+						on s.sal_id = es.sal_id
+						where e.emp_id = @emp_id and es.date = @date)
 
+	print 'Total Salary: ' + cast(@total as varchar(20))
 
+	if (@total < 100000)
+		set @taxRate = 0
+	else if (@total >= 100000 and @total < 200000)
+		set @taxRate = 0.05
+	else if (@total >= 200000 and @total < 350000)
+		set @taxRate = 0.06
+	else
+		set @taxRate = 0.075
 
+	set @tax = @total * @taxRate
+
+	print 'Tax Percentage: '+ cast(@taxRate as varchar(20)) +'%'
+	print 'Total tax payable: '+ cast(@tax as varchar(20))
+
+end
+
+exec taxCalculator 101, '2021-04-27 00:00:00.000'
 
 
 
 
 --15) Create a function that will take the basic,HRA and da returns the sum of the three
+create function fnSumofSalary (@basic float, @hra float, @da float)
+returns float
+as
+begin
+	declare
+	@total float
+
+	set @total = @basic + @hra + @da
+
+	return @total
+end
+
+select dbo.fnSumofSalary(200000, 2000, 200) 'Sum of Salary'
+
 
 --16) Create a cursor that will pick up every employee and print his details 
 --then print all the entries for his salary in the employeesalary table. 
 --Also show the salary splitt up(Hint-> use the salary table)
+declare
+@e_emp_id		int,
+@e_emp_name	varchar(50),
+@e_emp_age	int,
+@e_phone		char(11),
+@e_gender		char(1),
+@e_email		varchar(100)
+
+declare cur_employee cursor for select * from employee
+open cur_employee
+fetch next from cur_employee into @e_emp_id, @e_emp_name, @e_emp_age, @e_phone, @e_gender, @e_email
+
+	while(@@FETCH_STATUS = 0)
+	begin
+		print '====================================================='
+		print 'Employee ID			: '+ cast(@e_emp_id as varchar(20))
+		print 'Employee Name		: '+ cast(@e_emp_name as varchar(20))
+		print 'Employee Age			: '+ cast(@e_emp_age as varchar(20))
+		print 'Phone				: '+ cast(@e_phone as varchar(20))
+		print 'Gender				: '+ cast(@e_gender as varchar(20))
+		print 'Email				: '+ cast(@e_email as varchar(20))
+		print '-----------------------------------------------------'
+
+		declare 
+		@es_trans_no int,
+		@es_emp_id int,
+		@es_sal_id int,
+		@es_date datetime,
+		@s_sal_basic float,
+		@s_hra float,
+		@s_da float,
+		@s_deduction float,
+		@sum_salary float
+
+
+		declare cur_transDetails cursor for select es.trans_no, es.emp_id, es.sal_id, es.date, s.sal_basic, s.hra, s.da, s.deductions
+		from employeesalary es join salary s
+		on es.sal_id = s.sal_id
+		where emp_id = @e_emp_id
+
+		open cur_transDetails
+		fetch next from cur_transDetails into @es_trans_no, @es_emp_id, @es_sal_id, @es_date, @s_sal_basic, @s_hra, @s_da, @s_deduction
+
+		while(@@FETCH_STATUS = 0)
+		begin
+			print 'Transaction Number			: ' +cast(@es_trans_no as varchar(20))
+			print 'Transaction Date				: ' +cast(@es_date as varchar(20))
+			print 'Employee ID					: ' +cast(@es_emp_id as varchar(20))
+			print 'Salary ID					: ' +cast(@es_sal_id as varchar(20))
+			print 'Basic Salary					: ' +cast(@s_sal_basic as varchar(20))
+			print 'Hourse Rent Allowance(HRA)	: ' +cast(@s_hra as varchar(20))
+			print 'Dearness Allowance(DA)		: ' +cast(@s_da as varchar(20))
+			print 'Deductions					: ' +cast(@s_deduction as varchar(20))
+			print '====================================================='
+
+			fetch next from cur_transDetails into @es_trans_no, @es_emp_id, @es_sal_id, @es_date, @s_sal_basic, @s_hra, @s_da, @s_deduction
+		end
+
+		close cur_transDetails
+		deallocate cur_transDetails
+
+
+		fetch next from cur_employee into @e_emp_id, @e_emp_name, @e_emp_age, @e_phone, @e_gender, @e_email
+	end
+
+close cur_employee
+deallocate cur_employee
+
+
+
+--17) https://www.hackerrank.com/challenges/maximum-element/problem
+
+
+
+--18) https://www.geeksforgeeks.org/find-if-there-is-a-subarray-with-0-sum/
+
