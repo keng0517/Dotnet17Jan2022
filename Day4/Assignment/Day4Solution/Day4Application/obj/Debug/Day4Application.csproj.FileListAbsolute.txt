@@ -1,0 +1,8 @@
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\Assignment\Day4Solution\Day4Application\bin\Debug\Day4Application.exe.config
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\Assignment\Day4Solution\Day4Application\bin\Debug\Day4Application.exe
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\Assignment\Day4Solution\Day4Application\bin\Debug\Day4Application.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\Assignment\Day4Solution\Day4Application\obj\Debug\Day4Application.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\Assignment\Day4Solution\Day4Application\obj\Debug\Day4Application.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\Assignment\Day4Solution\Day4Application\obj\Debug\Day4Application.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\Assignment\Day4Solution\Day4Application\obj\Debug\Day4Application.exe
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\Assignment\Day4Solution\Day4Application\obj\Debug\Day4Application.pdb

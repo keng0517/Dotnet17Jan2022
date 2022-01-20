@@ -1,0 +1,8 @@
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\bin\Debug\FirstApplication.exe.config
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\bin\Debug\FirstApplication.exe
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\bin\Debug\FirstApplication.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\obj\Debug\FirstApplication.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\obj\Debug\FirstApplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\obj\Debug\FirstApplication.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\obj\Debug\FirstApplication.exe
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\obj\Debug\FirstApplication.pdb
