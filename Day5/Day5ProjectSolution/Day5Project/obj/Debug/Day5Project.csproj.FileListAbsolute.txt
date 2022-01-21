@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5ProjectSolution\Day5Project\obj\Debug\Day5Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5ProjectSolution\Day5Project\obj\Debug\Day5Project.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5ProjectSolution\Day5Project\bin\Debug\Day5Project.exe.config
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5ProjectSolution\Day5Project\bin\Debug\Day5Project.exe
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5ProjectSolution\Day5Project\bin\Debug\Day5Project.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5ProjectSolution\Day5Project\bin\Debug\ClinicModelsLibrary.dll
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5ProjectSolution\Day5Project\bin\Debug\ClinicModelsLibrary.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5ProjectSolution\Day5Project\obj\Debug\Day5Project.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5ProjectSolution\Day5Project\obj\Debug\Day5Project.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5ProjectSolution\Day5Project\obj\Debug\Day5Project.exe
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5ProjectSolution\Day5Project\obj\Debug\Day5Project.pdb

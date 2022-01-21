@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Day5Practical
+namespace PizzaModelsLibrary
 {
-    internal class Class1
+    internal class Pizza
     {
+
     }
 }

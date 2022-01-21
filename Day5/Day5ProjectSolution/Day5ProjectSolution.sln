@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day5Project", "Day5Project\Day5Project.csproj", "{11A16FFD-21A5-4E73-9134-057E8B7F5D8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicModelsLibrary", "ClinicModelsLibrary\ClinicModelsLibrary.csproj", "{C0D33B9A-E1D3-456D-9026-ACC8C8A36928}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{11A16FFD-21A5-4E73-9134-057E8B7F5D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11A16FFD-21A5-4E73-9134-057E8B7F5D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11A16FFD-21A5-4E73-9134-057E8B7F5D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D33B9A-E1D3-456D-9026-ACC8C8A36928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D33B9A-E1D3-456D-9026-ACC8C8A36928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D33B9A-E1D3-456D-9026-ACC8C8A36928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D33B9A-E1D3-456D-9026-ACC8C8A36928}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
