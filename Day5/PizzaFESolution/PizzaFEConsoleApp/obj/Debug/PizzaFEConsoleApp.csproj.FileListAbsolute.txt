@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\PizzaFESolution\PizzaFEConsoleApp\bin\Debug\PizzaFEConsoleApp.exe.config
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\PizzaFESolution\PizzaFEConsoleApp\bin\Debug\PizzaFEConsoleApp.exe
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\PizzaFESolution\PizzaFEConsoleApp\bin\Debug\PizzaFEConsoleApp.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\PizzaFESolution\PizzaFEConsoleApp\bin\Debug\PizzaModelsLibrary.dll
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\PizzaFESolution\PizzaFEConsoleApp\bin\Debug\PizzaModelsLibrary.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\PizzaFESolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\PizzaFESolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\PizzaFESolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\PizzaFESolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\PizzaFESolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.exe
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\PizzaFESolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.pdb

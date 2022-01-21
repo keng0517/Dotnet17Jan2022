@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "13497b6b-e32b-4308-bdd5-9555de9eac67": {
+      "ProjectGuid": "13497b6b-e32b-4308-bdd5-9555de9eac67",
+      "DisplayName": "PizzaFEConsoleApp",
+      "ColorIndex": 0
+    },
+    "c0681cf3-5471-42eb-96ea-131e05b88440": {
+      "ProjectGuid": "c0681cf3-5471-42eb-96ea-131e05b88440",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    },
+    "1b1490c1-fb25-4c43-8033-a8db80fc1f40": {
+      "ProjectGuid": "1b1490c1-fb25-4c43-8033-a8db80fc1f40",
+      "DisplayName": "PizzaModelsLibrary",
+      "ColorIndex": 2
+    },
+    "1d89b1b9-7106-4d46-94f2-a05bd2c2cbe1": {
+      "ProjectGuid": "1d89b1b9-7106-4d46-94f2-a05bd2c2cbe1",
+      "DisplayName": "PizzaModelsLibrary2",
+      "ColorIndex": 3
+    },
+    "20a76f07-efe7-485e-88f8-5de5a393ffa5": {
+      "ProjectGuid": "20a76f07-efe7-485e-88f8-5de5a393ffa5",
+      "DisplayName": "PizzaModelsLibrary",
+      "ColorIndex": 4
+    },
+    "e1807085-0b5a-42b9-81f9-7d5e4a83f331": {
+      "ProjectGuid": "e1807085-0b5a-42b9-81f9-7d5e4a83f331",
+      "DisplayName": "ClinicModelsLibrary",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

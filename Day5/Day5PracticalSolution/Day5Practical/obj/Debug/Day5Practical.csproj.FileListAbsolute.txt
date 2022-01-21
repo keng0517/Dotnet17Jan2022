@@ -1,0 +1,8 @@
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5PracticalSolution\Day5Practical\bin\Debug\Day5Practical.exe.config
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5PracticalSolution\Day5Practical\bin\Debug\Day5Practical.exe
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5PracticalSolution\Day5Practical\bin\Debug\Day5Practical.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5PracticalSolution\Day5Practical\obj\Debug\Day5Practical.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5PracticalSolution\Day5Practical\obj\Debug\Day5Practical.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5PracticalSolution\Day5Practical\obj\Debug\Day5Practical.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5PracticalSolution\Day5Practical\obj\Debug\Day5Practical.exe
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day5\Day5PracticalSolution\Day5Practical\obj\Debug\Day5Practical.pdb
