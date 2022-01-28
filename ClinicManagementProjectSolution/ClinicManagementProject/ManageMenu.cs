@@ -88,7 +88,7 @@ namespace ClinicManagementProject
         {
             new Appointment{
                 apt_id = "A101",
-                apt_reg_datetime = new DateTime(2015, 12, 31, 5, 10, 20),
+                apt_reg_datetime = "28/1/2022 9:35:47 AM",
                 apt_doctor_id = "D101",
                 apt_date = "12/12/2022",
                 apt_time = "12:00",
@@ -99,7 +99,7 @@ namespace ClinicManagementProject
             },
             new Appointment{
                 apt_id = "A102",
-                apt_reg_datetime = new DateTime(2022, 12, 31, 5, 10, 20),
+                apt_reg_datetime = "29/1/2022 9:35:47 AM",
                 apt_doctor_id = "D102",
                 apt_date = "12/12/1999",
                 apt_time = "13:00",
@@ -110,10 +110,10 @@ namespace ClinicManagementProject
             },
             new Appointment{
                 apt_id = "A103",
-                apt_reg_datetime = new DateTime(2011, 12, 31, 5, 10, 20),
+                apt_reg_datetime = "28/1/2022 10:35:47 AM",
                 apt_doctor_id = "D101",
                 apt_date = "12/12/2222",
-                apt_time = "13:00",
+                apt_time = "14:00",
                 apt_amount = -1,
                 apt_reason = "any reason from patient 2",
                 apt_status = "Approved",
@@ -501,7 +501,7 @@ namespace ClinicManagementProject
 
                                 //fill in doctor name
                                 Doctor doc = doctors.Find(d => d.user_id == appt.apt_doctor_id);
-                                Console.Write("doctor " + doc.user_name);
+                                Console.Write("Doctor " + doc.user_name);
 
                                 Console.WriteLine(appt.ToString2());
                                 recordCount++;
@@ -517,7 +517,7 @@ namespace ClinicManagementProject
 
                                     //fill in doctor name
                                     Doctor doc = doctors.Find(d => d.user_id == appt.apt_doctor_id);
-                                    Console.Write("doctor " + doc.user_name);
+                                    Console.Write("Doctor " + doc.user_name);
 
                                     Console.WriteLine(appt.ToString2());
 
@@ -659,7 +659,7 @@ namespace ClinicManagementProject
                 switch (editChoice)
                 {
                     case 1:
-                        newInput = ap.getValidatedDate();
+                        newInput = ap.getValidatedDate(doctors, appointments, ap.apt_time, ap.apt_doctor_id);
 
                         confirm = Confirmation();
                         if (confirm == true)
@@ -671,7 +671,7 @@ namespace ClinicManagementProject
                         break;
 
                     case 2:
-                        newInput = ap.getValidatedTime();
+                        newInput = ap.getValidatedTime(doctors, appointments, ap.apt_date, ap.apt_doctor_id );
 
                         confirm = Confirmation();
                         if (confirm == true)
@@ -693,8 +693,7 @@ namespace ClinicManagementProject
                         break;
 
                     case 4:
-                        Console.Write("\nPlease enter new prefered doctor ID                  : ");
-                        newInput = Console.ReadLine();
+                        newInput = ap.getDoctorId(doctors, appointments, ap.apt_date, ap.apt_time);
                         confirm = Confirmation();
                         if (confirm == true)
                         {
@@ -921,7 +920,7 @@ namespace ClinicManagementProject
 
                     //fill in doctor name
                     Doctor doc1 = doctors.Find(d => d.user_id == appt.apt_doctor_id);
-                    Console.Write("doctor " + doc1.user_name);
+                    Console.Write("Doctor " + doc1.user_name);
 
                     Console.WriteLine(appt.ToString2());
                     recordCount++;

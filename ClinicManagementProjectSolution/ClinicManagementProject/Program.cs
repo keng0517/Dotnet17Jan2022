@@ -18,6 +18,7 @@ namespace ClinicManagementProject
 
             Console.WriteLine("\n\nThanks for using Raindy's Clinic Management System\nPress any key to continue...");
             Console.ReadKey();
+
         }
 
         public void mainMenu()
