@@ -1,0 +1,13 @@
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeProject\bin\Debug\EmployeeProject.exe.config
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeProject\bin\Debug\EmployeeProject.exe
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeProject\bin\Debug\EmployeeProject.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeProject\bin\Debug\EmployeeDALLibrary.dll
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeProject\bin\Debug\EmployeeModelsLibrary.dll
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeProject\bin\Debug\EmployeeDALLibrary.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeProject\bin\Debug\EmployeeModelsLibrary.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeProject\obj\Debug\EmployeeProject.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeProject\obj\Debug\EmployeeProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeProject\obj\Debug\EmployeeProject.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeProject\obj\Debug\EmployeeProject.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeProject\obj\Debug\EmployeeProject.exe
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeProject\obj\Debug\EmployeeProject.pdb

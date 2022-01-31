@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "11a16ffd-21a5-4e73-9134-057e8b7f5d8f": {
+      "ProjectGuid": "11a16ffd-21a5-4e73-9134-057e8b7f5d8f",
+      "DisplayName": "Day5Project",
+      "ColorIndex": 0
+    },
+    "c0d33b9a-e1d3-456d-9026-acc8c8a36928": {
+      "ProjectGuid": "c0d33b9a-e1d3-456d-9026-acc8c8a36928",
+      "DisplayName": "ClinicModelsLibrary",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
