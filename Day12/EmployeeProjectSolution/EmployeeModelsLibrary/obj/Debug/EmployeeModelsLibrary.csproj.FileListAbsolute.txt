@@ -1,0 +1,12 @@
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeModelsLibrary\bin\Debug\EmployeeModelsLibrary.dll
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeModelsLibrary\bin\Debug\EmployeeModelsLibrary.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeModelsLibrary\obj\Debug\EmployeeModelsLibrary.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeModelsLibrary\obj\Debug\EmployeeModelsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeModelsLibrary\obj\Debug\EmployeeModelsLibrary.dll
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day11\EmployeeProjectSolution\EmployeeModelsLibrary\obj\Debug\EmployeeModelsLibrary.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeModelsLibrary\bin\Debug\EmployeeModelsLibrary.dll
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeModelsLibrary\bin\Debug\EmployeeModelsLibrary.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeModelsLibrary\obj\Debug\EmployeeModelsLibrary.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeModelsLibrary\obj\Debug\EmployeeModelsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeModelsLibrary\obj\Debug\EmployeeModelsLibrary.dll
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeModelsLibrary\obj\Debug\EmployeeModelsLibrary.pdb

@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeDALEFLibrary\obj\Debug\EmployeeDALEFLibrary.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeDALEFLibrary\obj\Debug\EmployeeDALEFLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeDALEFLibrary\bin\Debug\EmployeeDALEFLibrary.dll.config
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeDALEFLibrary\bin\Debug\EmployeeDALEFLibrary.dll
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeDALEFLibrary\bin\Debug\EmployeeDALEFLibrary.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeDALEFLibrary\bin\Debug\EmployeeModelsLibrary.dll
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeDALEFLibrary\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeDALEFLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeDALEFLibrary\bin\Debug\EmployeeModelsLibrary.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeDALEFLibrary\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeDALEFLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeDALEFLibrary\obj\Debug\EmployeeDALEFLibrary.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeDALEFLibrary\obj\Debug\EmployeeDALEFLibrary.dll
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\EmployeeProjectSolution\EmployeeDALEFLibrary\obj\Debug\EmployeeDALEFLibrary.pdb

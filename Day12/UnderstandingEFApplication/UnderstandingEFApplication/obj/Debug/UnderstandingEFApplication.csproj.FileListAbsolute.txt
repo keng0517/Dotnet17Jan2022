@@ -1,0 +1,13 @@
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\bin\Debug\UnderstandingEFApplication.exe.config
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\bin\Debug\UnderstandingEFApplication.exe
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\bin\Debug\UnderstandingEFApplication.pdb
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.exe
+C:\Users\ASUS\Desktop\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.pdb
