@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        .container {
+            text-align: center;
+        }
+
+        form {
+            margin-top: 50px;
+        }
+
+        .table{
+            margin-top:50px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+
+        <div class="container">
+            <h3>Registration Form</h3>
+            <form>
+                <div class="form-group">
+                    <label>Name</label>
+                    <input id="inputName" type="text" required />
+                </div>
+
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input id="inputPhone" type="text" required />
+                </div>
+
+
+                <button type="button" onclick="submitInfo()" class="btn btn-primary">Submit</button>
+                <button type="button" onclick="cancelInfo()" class="btn btn-danger">Cancel</button>
+
+            </form>
+
+
+            <table id="userInfoTable" class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+
+            </table>
+
+
+            <script>
+                
+                var arrObject = new Array();
+
+                function cancelInfo() {
+                    document.getElementById("inputName").value = "";
+                    document.getElementById("inputPhone").value = "";
+                }
+
+
+                function submitInfo() {
+
+                    
+                    
+                    var name = document.getElementById("inputName").value;
+                    var phone = document.getElementById("inputPhone").value;
+
+                    document.getElementById("inputName").value = "";
+                    document.getElementById("inputPhone").value = "";
+
+                    if (name == "" || phone == "") {
+                        alert("Name or Phone cannot be empty !");
+                    }
+                    else {
+
+                        //save into array
+                        var inputObject = {
+                            "name": name,
+                            "phone": phone,
+                        };
+
+
+                        arrObject.push(inputObject);
+
+
+                        var table = document.getElementById("userInfoTable").getElementsByTagName('tbody')[0];
+
+                        var row = table.insertRow();
+                        var cellNo = row.insertCell(0);
+                        var cellName = row.insertCell(1);
+                        var cellPhone = row.insertCell(2);
+
+                        console.log(arrObject);
+
+                        var count = 1;
+                        arrObject.forEach(function (item) {
+
+                            console.log(count);
+                            cellNo.innerHTML = count;
+                            cellName.innerHTML = item.name;
+                            cellPhone.innerHTML = item.phone;
+                            count += 1;
+                            console.log(count);
+                        });
+
+                    }
+                    
+
+                    
+
+                    
+
+                }
+
+
+            </script>
+
+
+        </div>
+
+        
+
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
