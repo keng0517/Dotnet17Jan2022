@@ -12,7 +12,6 @@
          </div>
     <input type="submit" value="Create Pizza" class="btn btn-success"/>
 </form>*@
-
 @using(Html.BeginForm("Create","Pizza",FormMethod.Post)){
     @Html.LabelFor(m=>m.PizzaID,htmlAttributes:new{@class="form-control"})
     @Html.EditorFor(m=>m.PizzaID,new{@htmlAttributes=new{@class="form-control"}})
