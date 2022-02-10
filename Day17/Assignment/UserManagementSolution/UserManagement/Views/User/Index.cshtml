@@ -1,0 +1,45 @@
+﻿@model IEnumerable<UserManagement.Models.User>
+
+    <style>
+        #divCard{
+            text-align: center;
+            position:relative;
+            float:left;
+            height:20%;
+            width:30%;
+        }
+    </style>
+
+    
+
+       @foreach (var item in Model)
+       {
+           <div id="divCard" class="card">
+
+              <!--Card image-->
+@*              <div class="view">
+                  <h3></h3>
+                  <div class="mask rgba-white-slight"></div>
+              </div>*@
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h5 class="card-title">@item.user_name</h5>
+
+                @Html.ActionLink("Edit", "Edit", new {  id = item.user_id  }) |
+                @Html.ActionLink("Details", "Details", new {  id = item.user_id  }) |
+                @Html.ActionLink("Delete", "Delete", new {  id = item.user_id  })
+              </div>
+
+            </div>
+
+       }
+
+
+       <div id="divCard" class="card">
+           <div class="card-body" style="height:90px; vertical-align:middle;">
+               <h5 class="card-title"></h5>
+                @Html.ActionLink("Add New User","Create","User")
+           </div>
+       </div>
