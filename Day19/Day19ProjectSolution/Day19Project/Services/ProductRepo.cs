@@ -42,6 +42,7 @@ namespace Day19Project.Services
             Product product = _context.Products.FirstOrDefault(x => x.Id == item.Id);
             if (product != null)
             {
+                product.Category = item.Category;
                 product.Name = item.Name;
                 product.Description = item.Description;
                 product.Price = item.Price;

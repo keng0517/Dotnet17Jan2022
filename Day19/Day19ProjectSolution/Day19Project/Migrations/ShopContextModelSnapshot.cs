@@ -29,6 +29,10 @@ namespace Day19Project.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -44,35 +48,12 @@ namespace Day19Project.Migrations
                     b.Property<double>("Price")
                         .HasColumnType("float");
 
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.ToTable("Products");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 101,
-                            Description = "Drop down any product description here.",
-                            Name = "Super Fresh Banana",
-                            Pic = "/images/Banana.jpg",
-                            Price = 88.879999999999995
-                        },
-                        new
-                        {
-                            Id = 102,
-                            Description = "Drop down any product description here.",
-                            Name = "Super Crunchy Biscuit",
-                            Pic = "/images/Biscuit.jpg",
-                            Price = 12.880000000000001
-                        },
-                        new
-                        {
-                            Id = 103,
-                            Description = "Drop down any product description here.",
-                            Name = "No Brand Polo-T",
-                            Pic = "/images/PoloT.jpg",
-                            Price = 23.879999999999999
-                        });
                 });
 #pragma warning restore 612, 618
         }

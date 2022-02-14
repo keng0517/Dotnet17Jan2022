@@ -1,0 +1,100 @@
+﻿@model Day19Project.Models.Product
+
+@{
+    ViewData["Title"] = "ProductPurchasing";
+}
+
+<h1>ProductPurchasing</h1>
+
+<h4>Product</h4>
+<hr />
+<div class="row">
+    
+    <div class="col-md-4">
+        <form asp-action="ProductPurchasing">    
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <img id="img_display" alt="No Pic" width="200px" height="200px"/>
+
+            <div class="form-group" id="pic_input_div">
+                <label asp-for="Pic" class="control-label"></label>
+                <input asp-for="Pic" id="picAddress" class="form-control" />
+                <span asp-validation-for="Pic" class="text-danger"></span>
+
+
+                
+
+                
+
+                <script type="text/javascript">
+                    window.onload = function() {
+                        var pic_input_div = document.getElementById("pic_input_div");
+                        pic_input_div.style.display = 'none';
+
+                        var picAddress = document.getElementById("picAddress").value;
+
+                        document.getElementById("img_display").src = picAddress;
+                    };
+
+
+                    function totalCalc(){
+                        var qty = document.getElementById("Quantity").value;
+                        var price = document.getElementById("Price").value;
+                        
+                        var total = qty * price;
+
+                        alert("Total Amount is $"+total.toFixed(2));
+                    }
+                   
+                </script>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" readonly="true"/>
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" readonly="true"/>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" readonly="true"/>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Category" class="control-label"></label>
+                <input asp-for="Category" class="form-control" readonly="true"/>
+                <span asp-validation-for="Category" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity" class="control-label"></label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" readonly="true"/>
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <input type="submit" onclick="totalCalc()" value="Buy Now" class="btn btn-primary" />
+            </div>
+            <br/>
+        </form>
+    </div>
+
+    
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

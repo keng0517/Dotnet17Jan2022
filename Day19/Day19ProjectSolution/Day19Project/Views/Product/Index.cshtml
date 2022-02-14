@@ -40,8 +40,9 @@
             <h4 class="card-title">@item.Name</h4>
 
             <!--Text-->
+            <p class="card-text"><b>@item.Category</b></p>
             <p class="card-text">@item.Description</p>
-            <a href="#" class="btn btn-primary">Buy for $@item.Price</a>
+            <a class="btn btn-outline-primary" asp-action="ProductPurchasing" asp-route-id="@item.Id">Buy for $@item.Price</a>
             </div>
 
         </div>
