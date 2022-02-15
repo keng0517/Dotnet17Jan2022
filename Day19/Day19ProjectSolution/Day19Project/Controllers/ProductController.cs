@@ -89,8 +89,7 @@ namespace Day19Project.Controllers
         //purchasing part
         public IActionResult ProductPurchasing(int id)
         {
-            //ViewBag.Category = GetProductCategory();
-            //ViewBag.Picture = GetProductPicture();
+
             Product product = _repo.Get(id);
             return View(product);
         }
@@ -98,18 +97,9 @@ namespace Day19Project.Controllers
         [HttpPost]
         public IActionResult ProductPurchasing(int id, Product product)
         {
-            //Product product = _repo.Get(id);
-
-            //product.Quantity = product.Quantity - item.BuyQty;
-
             _repo.Update(product);
 
-            //if (TempData.ContainsKey("buyQty"))
-            //{
-            //    TempData.Remove("buyQty");
-            //}
-            //TempData.Add("buyQty", item.BuyQty);
-            //return RedirectToAction("Details", "Product", new { id = product.Id });
+           
             return RedirectToAction("Index");
         }
     }
